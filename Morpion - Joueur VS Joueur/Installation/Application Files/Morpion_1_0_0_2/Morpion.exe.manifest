@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Morpion.exe" version="1.0.0.2" publicKeyToken="36732338c579e64d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Morpion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Morpion.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Options de manifeste UAC
+          Pour changer le niveau du contrôle de compte d'utilisateur Windows, remplacez le
+          nœud requestedExecutionLevel par l'une des propositions suivantes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Pour utiliser la virtualisation des fichiers et du Registre afin d'assurer
+         une compatibilité ascendante, supprimez le nœud requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Morpion.exe" size="28608">
+      <assemblyIdentity name="Morpion" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ZEW2S3+yttvfGJBR430/0gT1f1a7upwVun5GDt8YY7w=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Morpion.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ANYMOK-PC\Anymok" issuerKeyHash="1cc9c29b01ab3ceef02db54cc6e7808d39f33ebb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4YTrXWm8E7mswfk+6PnlZ/4MdL0iI0nWMpCiAwgNNlY=</DigestValue></Reference></SignedInfo><SignatureValue>K93iJ5N0084eu9E2Udqahe+36m6QhYtBxlzNsyogOvXnGubBFXEYEnWprHW+Y6SinNLCz1gCfuK1qgI2CbB8ig9PsLfimZi1j08jJpcYjqIXbZtnXwDvYah1bl/Ol2QWIqb5ZUTe9mOZQmfswk6oOMVUko5AVjlh20d7wR2JDm4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2ofTqpvPtElSMkTTLG93HVwBrtUdKT7cX6TGQIUg76A2ZbfIQ3hoSuUmXeLC5IVMRbZOKNYfnlijGB8nIOzcxUV/mxrMovlA1coIXnQWPsKeWjHhHwDJRwMrLV2bdVnT1T9Sk+8HmLYBk6UBogCJq7HRwYSr+2L1Az7OQyBRwbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="56360d0803a29032d6492322bd740cfe67e5f9e83ef9c1acb913bc695deb84e1" Description="" Url=""><as:assemblyIdentity name="Morpion.exe" version="1.0.0.2" publicKeyToken="36732338c579e64d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ANYMOK-PC\Anymok</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6jZOkUPfVQr0c88iKNsw0h2FdEZ4xhlqjd3CwHaMKVs=</DigestValue></Reference></SignedInfo><SignatureValue>erhYCpuoF+QSpxq32Gpm59Re/GVkflOCEEr5320IR2JfJiiwn6DApLFb/prBNuyY96gwcT1wLzh8Kf8MyXAWk94OR0EqPFfkJDlfkAZgZFLTyTXm9KjbivhnC42f6sXRWFWB8pefw19u9exGqrQeE374p/bCtGHGSEP7xC9zvxA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2ofTqpvPtElSMkTTLG93HVwBrtUdKT7cX6TGQIUg76A2ZbfIQ3hoSuUmXeLC5IVMRbZOKNYfnlijGB8nIOzcxUV/mxrMovlA1coIXnQWPsKeWjHhHwDJRwMrLV2bdVnT1T9Sk+8HmLYBk6UBogCJq7HRwYSr+2L1Az7OQyBRwbE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQZpGkvGyJzpxBfWq+8g0UQTANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAAQQBOAFkATQBPAEsALQBQAEMAXABBAG4AeQBtAG8AazAeFw0yMjAyMTAxMzMyMTNaFw0yMzAyMTAxOTMyMTNaMCsxKTAnBgNVBAMeIABBAE4AWQBNAE8ASwAtAFAAQwBcAEEAbgB5AG0AbwBrMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDah9Oqm8+0SVIyRNMsb3cdXAGu1R0pPtxfpMZAhSDvoDZlt8hDeGhK5SZd4sLkhUxFtk4o1h+eWKMYHycg7NzFRX+bGsyi+UDVyghedBY+wp5aMeEfAMlHAystXZt1WdPVP1KT7weYtgGTpQGiAImrsdHBhKv7YvUDPs5DIFHBsQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBABGJTYCnnbMhe3rXZmApQx/eezlqo1dRG/icQhPgK42hxaIrvvPyMEGUXLTfo2X/19Ejb05MJycEr8tjMWAtRH+2EVyZ3OVvhan5zh7PsXH4+WIBDfLiOkZGGJtWwWcOgaYZ0iZ7oEJxQP8kQ4R8DId0N93YWvQFEueoLx1qLKY0</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
